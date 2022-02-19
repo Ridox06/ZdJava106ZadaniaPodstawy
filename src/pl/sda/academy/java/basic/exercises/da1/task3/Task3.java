@@ -17,10 +17,10 @@ public class Task3 {
         System.out.println("If x * 3 is greater than y: " + pointB);
 
         boolean pointC = methodForPointC(x, y);
-        System.out.println("If y++ is smaller tjan ++x and --x is smaller than y++:  " + pointC);
+        System.out.println("If y++ is smaller than ++x and --x is smaller than y++:  " + pointC);
 
         boolean pointD = methodForPointD(x, y);
-        System.out.println("If y++ is smaller tjan ++x and --x is smaller than y++:  " + pointD);
+        System.out.println("If y++ is smaller than ++x and --x is smaller than y++:  " + pointD);
     }
 
     private static boolean methoForPointA(int x, int y) {
